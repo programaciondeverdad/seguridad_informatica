@@ -29,4 +29,3 @@ Iniciar servidor:
 
 Crear una app:
 `py manage.py startapp usuarios`
-
