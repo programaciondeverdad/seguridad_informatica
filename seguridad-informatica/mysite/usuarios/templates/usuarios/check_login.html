@@ -1,0 +1,10 @@
+<h2>Ingrese su código de validación</h2>
+
+<form method="POST">
+    {{ form.as_p }}
+    {% csrf_token %}
+    <button type="submit">Validar</button>
+</form>
+
+<hr />
+<a href="login">Volver al login</a>

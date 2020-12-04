@@ -5,6 +5,13 @@ Este código es el utilizado en el video de Seguridad Informática de Programaci
 Aplicamos conceptos de Seguridad Informática como programadores para proteger a nuestros usuario y clientes.
 
 ¡Con descargarte todo el proyecto completo te alcanza!
+Para hacer andar el proyecto:
+> py manage.py migrate
+> py manage.py runserver 
+
+
+
+
 
 También podés correr estos comandos para tener la estructura base de Django y mirar el video para hacer el paso a paso:
 > py -m venv seguridad-informatica
@@ -23,3 +30,4 @@ Iniciar servidor:
 
 Crear una app:
 > py manage.py startapp usuarios
+
